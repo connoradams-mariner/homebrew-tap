@@ -1,21 +1,21 @@
 class Fluxcapacitor < Formula
   desc "FluxCompress CLI – two-pass cold storage optimizer and file manager"
   homepage "https://github.com/connoradams-mariner/Flux-Compressor"
-  version "0.6.4"
+  version "0.6.5"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/connoradams-mariner/Flux-Compressor/releases/download/v0.6.4/fluxcapacitor-aarch64-apple-darwin.tar.xz"
+      url "https://github.com/connoradams-mariner/Flux-Compressor/releases/download/v0.6.5/fluxcapacitor-aarch64-apple-darwin.tar.xz"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/connoradams-mariner/Flux-Compressor/releases/download/v0.6.4/fluxcapacitor-x86_64-apple-darwin.tar.xz"
+      url "https://github.com/connoradams-mariner/Flux-Compressor/releases/download/v0.6.5/fluxcapacitor-x86_64-apple-darwin.tar.xz"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/connoradams-mariner/Flux-Compressor/releases/download/v0.6.4/fluxcapacitor-aarch64-unknown-linux-gnu.tar.xz"
+      url "https://github.com/connoradams-mariner/Flux-Compressor/releases/download/v0.6.5/fluxcapacitor-aarch64-unknown-linux-gnu.tar.xz"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/connoradams-mariner/Flux-Compressor/releases/download/v0.6.4/fluxcapacitor-x86_64-unknown-linux-gnu.tar.xz"
+      url "https://github.com/connoradams-mariner/Flux-Compressor/releases/download/v0.6.5/fluxcapacitor-x86_64-unknown-linux-gnu.tar.xz"
     end
   end
   license "Apache-2.0"
